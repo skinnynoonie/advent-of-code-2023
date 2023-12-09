@@ -28,4 +28,4 @@ for i in nodes:
     if i[2] == "A":
         results.append(search(i))
 
-print(math.lcm(*results))
+print(f"Result: {math.lcm(*results)}")
